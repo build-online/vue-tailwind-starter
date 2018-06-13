@@ -1,0 +1,18 @@
+@tailwind preflight;
+@tailwind components;
+/*
+Use this section to create custom styles and use the @apply directive to build
+those styles from existing tailwinds utility classes.  This is how we keep our
+markup clean!
+
+Example:
+
+.list-item {
+@apply font-normal tracking-wide text-blue mb-4;
+}
+
+*/
+
+@tailwind utilities;
+
+
