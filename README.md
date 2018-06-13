@@ -1,4 +1,4 @@
-# vue-webpack-boilerplate with Tailwinds and Zondicons
+# Vue Boilerplate with Tailwinds and Zondicons
 
 ---
 This is just a basic vue-webpack template with a few minor additions.  We've added tailwind css and zondicons to the project.  Mainly because we use both of these tools on a regular basis and wanted to save time.
@@ -10,6 +10,8 @@ To run the project:
 * Then `npm run dev`
 
 You can edit the default tailwinds styles in the `tailwind.js` file in the root directory and you can add your own utility classes in `src/styles/main.css`
+
+**Everything below this line comes from the original vue-webpack-boilerplate readme.**
 
 
 
