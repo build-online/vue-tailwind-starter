@@ -1,84 +1,36 @@
 <template>
-  <div class="hello">
-    <h1>\{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li>
+  <div class="hello text-center">
+    <h1 class="mb-4">{{ msg }}</h1>
+    <h2 class="mb-4">Essential Links</h2>
+    <ul class="list-reset flex item-center justify-center max-w-md mx-auto">
+      <li class="text-xl bg-grey-lighter py-1 px-4 rounded-full mr-2">
         <a
           href="https://vuejs.org"
           target="_blank"
+          class="no-underline text-white"
         >
-          Core Docs
+          Vue
         </a>
       </li>
-      <li>
+      <li class="text-xl bg-grey-lighter py-1 px-4 rounded-full mr-2">
         <a
-          href="https://forum.vuejs.org"
+          href="https://tailwindcss.com"
           target="_blank"
+          class="no-underline text-white"
         >
-          Forum
+          Tailwind
         </a>
       </li>
-      <li>
+      <li class="text-xl bg-grey-lighter py-1 px-4 rounded-full ">
         <a
-          href="https://chat.vuejs.org"
+          href="https://www.zondicons.com"
           target="_blank"
+          class="no-underline text-white"
         >
-          Community Chat
+          Zondicons
         </a>
       </li>
-      <li>
-        <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
-        >
-          Twitter
-        </a>
-      </li>
-      <br>
-      <li>
-        <a
-          href="http://vuejs-templates.github.io/webpack/"
-          target="_blank"
-        >
-          Docs for This Template
-        </a>
-      </li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li>
-        <a
-          href="http://router.vuejs.org/"
-          target="_blank"
-        >
-          vue-router
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vuex.vuejs.org/"
-          target="_blank"
-        >
-          vuex
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vue-loader.vuejs.org/"
-          target="_blank"
-        >
-          vue-loader
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-        >
-          awesome-vue
-        </a>
-      </li>
+
     </ul>
   </div>
 </template>
@@ -88,26 +40,13 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js and Tailwind Starter Kit'
     }
   }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style>
+
 </style>
