@@ -1,4 +1,19 @@
-# vue-webpack-boilerplate
+# vue-webpack-boilerplate with Tailwinds and Zondicons
+
+---
+This is just a basic vue-webpack template with a few minor additions.  We've added tailwind css and zondicons to the project.  Mainly because we use both of these tools on a regular basis and wanted to save time.
+
+To run the project:
+
+* `vue init row-and-table/vue-tailwind-starter {project-name}`
+* Then `cd {project-name}`
+* Then `npm run dev`
+
+You can edit the default tailwinds styles in the `tailwind.js` file in the root directory and you can add your own utility classes in `src/styles/main.css`
+
+
+
+---
 
 > A full-featured Webpack setup with hot-reload, lint-on-save, unit testing & css extraction.
 
