@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
+  <div id="app" class="max-w-xl mx-auto font-sans leading-normal">
+    <img src="./assets/tailwind.jpg" class="block mx-auto">
     {{#router}}
     <router-view/>
     {{else}}
